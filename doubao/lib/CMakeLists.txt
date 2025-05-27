@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.15)
+
+add_subdirectory(axk_app)
+add_subdirectory(libogg)
+add_subdirectory(axk_ota)
+add_subdirectory(opus)
+add_subdirectory(zlib)
+add_subdirectory(VolcEngineRTCHal)
+add_subdirectory(VolcEngineRTCLite)
+add_subdirectory(blufi)
+add_subdirectory(syn_user_info)

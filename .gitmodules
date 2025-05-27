@@ -1,0 +1,10 @@
+[submodule "os"]
+	path = os
+	url = https://e.coding.net/axk/anxinkeaiwanjuxiangmu/bouffalo_sdk.git
+	branch = aipi-palchatv2_os
+[submodule "toolchains/linux"]
+	path = toolchains/linux
+	url = https://gitee.com/bouffalolab/toolchain_gcc_t-head_linux.git
+[submodule "toolchains/windows"]
+	path = toolchains/windows
+	url = https://gitee.com/bouffalolab/toolchain_gcc_t-head_windows.git

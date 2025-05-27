@@ -1,0 +1,1 @@
+GEN_CSRCS += _robot_alpha_100x100.c _no_internet_alpha_30x30.c

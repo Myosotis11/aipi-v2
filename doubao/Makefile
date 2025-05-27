@@ -15,7 +15,7 @@ export BL_SDK_BASE
 
 NOW_REAL_PATH:= $(realpath ./../)
 CHIP ?= bl616
-BOARD ?= ../aipi-palchatv2_board
+BOARD ?= aipi-palchatv2_board
 BOARD_DIR ?= $(NOW_REAL_PATH)
 
 CROSS_COMPILE ?= $(SDK_DEMO_PATH)/../toolchains/$(OS_TYPE)/bin/riscv64-unknown-elf-

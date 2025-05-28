@@ -14,7 +14,7 @@ sdk_add_compile_definitions(-DLV_LVGL_H_INCLUDE_SIMPLE)
 target_sources(app PRIVATE app_main.c)
 
 add_subdirectory(lib)
-
+add_subdirectory(opus)
 add_subdirectory(lvgl)
 
 sdk_add_include_directories(.)

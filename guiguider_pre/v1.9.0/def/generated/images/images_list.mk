@@ -1,0 +1,1 @@
+GEN_CSRCS += _sleep_0_alpha_100x100.c _wifi_connected_alpha_35x28.c

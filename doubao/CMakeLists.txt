@@ -15,6 +15,7 @@ target_sources(app PRIVATE app_main.c)
 
 add_subdirectory(lib)
 add_subdirectory(opus)
+
 add_subdirectory(lvgl)
 
 sdk_add_include_directories(.)

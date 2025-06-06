@@ -1,0 +1,79 @@
+build/object/lv_gc.o: d:\software\nxp\pro_6\lvgl\src\misc\lv_gc.c \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_gc.h \
+ d:\software\nxp\pro_6\lvgl\src\lv_conf_internal.h \
+ d:\software\nxp\pro_6\lvgl\src\lv_conf_kconfig.h \
+ D:/Software/NXP/pro_6/lvgl-simulator/lv_conf.h \
+ d:\software\nxp\pro_6\custom\lv_conf_ext.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_mem.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_types.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_ll.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_timer.h \
+ d:\software\nxp\pro_6\lvgl\src\hal\lv_hal_tick.h \
+ d:\software\nxp\pro_6\lvgl\src\lv_conf_internal.h \
+ d:\software\nxp\pro_6\lvgl\src\draw\lv_img_cache.h \
+ d:\software\nxp\pro_6\lvgl\src\draw\lv_img_decoder.h \
+ d:\software\nxp\pro_6\lvgl\src\lv_conf_internal.h \
+ d:\software\nxp\pro_6\lvgl\src\draw\lv_img_buf.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_color.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_assert.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_log.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_math.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_area.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_fs.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_types.h \
+ d:\software\nxp\pro_6\lvgl\src\draw\lv_draw_mask.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_math.h \
+ d:\software\nxp\pro_6\lvgl\src\core\lv_obj_pos.h \
+ d:\software\nxp\pro_6\lvgl\src\misc\lv_area.h
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_gc.h:
+
+d:\software\nxp\pro_6\lvgl\src\lv_conf_internal.h:
+
+d:\software\nxp\pro_6\lvgl\src\lv_conf_kconfig.h:
+
+D:/Software/NXP/pro_6/lvgl-simulator/lv_conf.h:
+
+d:\software\nxp\pro_6\custom\lv_conf_ext.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_mem.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_types.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_ll.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_timer.h:
+
+d:\software\nxp\pro_6\lvgl\src\hal\lv_hal_tick.h:
+
+d:\software\nxp\pro_6\lvgl\src\lv_conf_internal.h:
+
+d:\software\nxp\pro_6\lvgl\src\draw\lv_img_cache.h:
+
+d:\software\nxp\pro_6\lvgl\src\draw\lv_img_decoder.h:
+
+d:\software\nxp\pro_6\lvgl\src\lv_conf_internal.h:
+
+d:\software\nxp\pro_6\lvgl\src\draw\lv_img_buf.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_color.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_assert.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_log.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_math.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_area.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_fs.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_types.h:
+
+d:\software\nxp\pro_6\lvgl\src\draw\lv_draw_mask.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_math.h:
+
+d:\software\nxp\pro_6\lvgl\src\core\lv_obj_pos.h:
+
+d:\software\nxp\pro_6\lvgl\src\misc\lv_area.h:

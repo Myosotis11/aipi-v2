@@ -19,13 +19,7 @@
 
         #define ENTERPRISE_WEB_URL "https://api.tenclass.net/xiaozhi/ota/activate"        
     #else
-        //私有服务器
-        //websocket地址
-        #define DEFAULT_WS_URL "wss://cloud95.iot-aithings.com:2882/xiaozhi/v1/"
-        //激活码和OTA请求地址
-        #define WEB_SERVER "cloud95.iot-aithings.com"
-        #define WEB_PORT "2882"
-        #define WEB_URL "https://cloud95.iot-aithings.com:2882/xiaozhi/ota/"
+        //其他服务器
     #endif
 #endif
 #define EXIT_IDEL_TIME_MS	(1000*20)	//空闲退出时间

@@ -72,8 +72,9 @@
 | :---: | :---: | :---: | 
 
 ## 五、快速使用
-1. 火山引擎:[火山引擎（豆包）](https://fcniufr8ibx1.feishu.cn/docx/SipVdEtFZo2BZXxeWIkc2Tbln5e?from=from_copylink)
-2. OpenAI:[OpenAI](https://fcniufr8ibx1.feishu.cn/docx/VGrhd22Q0oktEzxbkYrcJWUPnud?from=from_copylink)
+2. 小智AI:[使用说明——小智AI](https://docs.ai-thinker.com/aipi-palchatv2/instructions_xiaozhi)
+1. 火山引擎:[使用说明——火山引擎](https://docs.ai-thinker.com/aipi-palchatv2/instructions)
 
-## 六、二次开发,请参考: [二次开发](https://fcniufr8ibx1.feishu.cn/docx/Ce1UdVPfQobAj4xSaFtctflbnEh?from=from_copylink)
+
+## 六、二次开发,请参考: [二次开发](https://docs.ai-thinker.com/aipi-palchatv2/)
 

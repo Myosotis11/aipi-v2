@@ -1,0 +1,43 @@
+sdk_generate_library()
+
+sdk_add_include_directories(.)
+sdk_add_include_directories(generated)
+sdk_add_include_directories(generated/guider_customer_fonts)
+sdk_add_include_directories(custom)
+
+sdk_library_add_sources( 
+    custom/custom.c 
+    generated/guider_fonts/lv_font_SourceHanSerifSC_Regular_20.c
+    generated/images/_no_internet_alpha_30x30.c
+    generated/images/_robot_alpha_100x100.c
+    generated/events_init.c
+    generated/gui_guider.c
+    generated/setup_scr_screen.c
+    generated/widgets_init.c
+    lcd_display.c
+    generated/guider_customer_fonts/lv_customer_font_SourceHanSerifSC_Regular_20.c
+    generated/images/_wifi_connected_alpha_35x28.c
+    generated/images/_angry_alpha_75x75.c
+    generated/images/_confident_alpha_75x75.c
+    generated/images/_confused_alpha_75x75.c
+    generated/images/_cool_alpha_75x75.c
+    generated/images/_crying_alpha_75x75.c
+    generated/images/_delicious_alpha_75x75.c
+    generated/images/_embarrassed_alpha_75x75.c
+    generated/images/_funny_alpha_75x75.c
+    generated/images/_happy_alpha_75x75.c
+    generated/images/_kissy_alpha_75x75.c
+    generated/images/_laughing_alpha_75x75.c
+    generated/images/_loving_alpha_75x75.c
+    generated/images/_neutral_alpha_75x75.c
+    generated/images/_relaxed_alpha_75x75.c
+    generated/images/_robot_120_120_0_alpha_100x100.c
+    generated/images/_sad_alpha_75x75.c
+    generated/images/_shocked_alpha_75x75.c
+    generated/images/_silly_alpha_75x75.c
+    generated/images/_sleepy_alpha_75x75.c
+    generated/images/_surprised_alpha_75x75.c
+    generated/images/_thinking_alpha_75x75.c
+    generated/images/_winking_alpha_75x75.c
+    generated/images/_robot_alpha_75x75.c
+)

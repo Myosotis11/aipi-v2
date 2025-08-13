@@ -5,7 +5,7 @@ target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/board_gpio.c)
 target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/board.c)
 target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/fw_header.c)
 target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/axk_board.c)
-target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/axk_main.o)
+# target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/axk_main.o)
 
 if(CONFIG_RF)
     target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/board_rf.c)

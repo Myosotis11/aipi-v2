@@ -17,8 +17,7 @@ sdk_add_compile_definitions(-DLV_LVGL_H_INCLUDE_SIMPLE)
 
 add_subdirectory(lvgl)
 add_subdirectory(Storage)
-
-sdk_add_static_library(./lib/libdev_bl616.a ./lib/libaxk_ota.a ./lib/libblufi.a ./lib/libdev_bl616.a ./lib/liblibogg.a ./lib/libopus.a ./lib/libVB6824.a ./lib/libxiaozhi.a)
+add_subdirectory(lib)
 
 target_sources(app PRIVATE app_main.c  xiaozhi_api.c )
 

@@ -18,7 +18,7 @@ CHIP ?= bl616
 BOARD ?= aipi-palchatv2_board
 BOARD_DIR ?= $(NOW_REAL_PATH)
 
-CROSS_COMPILE ?= $(SDK_DEMO_PATH)/../toolchains/$(OS_TYPE)/bin/riscv64-unknown-elf-
+CROSS_COMPILE ?= $(SDK_DEMO_PATH)/../../toolchains/$(OS_TYPE)/bin/riscv64-unknown-elf-
 
 # add custom cmake definition
 #cmake_definition+=-Dxxx=sss

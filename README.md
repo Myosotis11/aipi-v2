@@ -27,7 +27,7 @@
 
 ### 2. 可选 AI 模型
 
-| ![alt text](doc/IMG/deepseek.png) | ![alt text](doc/IMG/doubao.png) | ![alt text](doc/IMG/openAi.png) |
+|![alt text](doc/IMG/xiaozhi.jpg)| ![alt text](doc/IMG/deepseek.jpg) | ![alt text](doc/IMG/doubao.jpg)  |
 | :---: | :---: | :---: | 
 
 ### 3. 技术参数

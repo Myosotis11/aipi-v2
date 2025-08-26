@@ -73,8 +73,8 @@
 | :---: | :---: | :---: | 
 
 ## 五、快速使用
-2. 小智AI:[使用说明——小智AI](https://docs.ai-thinker.com/aipi-palchatv2/instructions_xiaozhi)
-1. 火山引擎:[使用说明——火山引擎](https://docs.ai-thinker.com/aipi-palchatv2/instructions)
+2. 小智AI:[使用说明——小智AI](https://docs.ai-thinker.com/aipi-palchatv2/instructions_xiaozhi.html)
+1. 火山引擎:[使用说明——火山引擎](https://docs.ai-thinker.com/aipi-palchatv2/instructions.html)
 
 
 ## 六、二次开发,请参考: [二次开发](https://docs.ai-thinker.com/aipi-palchatv2/)

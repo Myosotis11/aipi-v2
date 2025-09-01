@@ -53,6 +53,9 @@ uint32_t last_connect_play_systick=0; //记录上次连接播放的时间
 
 active_info_t activeInfo={WEB_SERVER,WEB_PORT,WEB_URL};
 
+TaskHandle_t wifi_module_ota_task_handle = NULL;
+TaskHandle_t vb6824_module_ota_task_handle = NULL;
+
 extern void shell_init_with_task(struct bflb_device_s *shell);
 
 int wifi_start_firmware_task(void)
@@ -165,8 +168,6 @@ void netcfg_sta_connect(char *ssid, char *pwd)
 
 static void cmd_factory_mode(char *buf, int len, int argc, char **argv)
 {
-    extern bool audio_enable;
-    audio_enable=false;
     vb6824_enter_factory_mode();
 }
 
@@ -398,8 +399,8 @@ int app_main(void)
 
     xTaskCreate(proc_main_entry, (char*)"main_entry", 1024, NULL, 2, NULL);
     xTaskCreate(lvgl_display_task, (char*)"lvgl_display_task", 1024, NULL, 10, NULL);
-    xTaskCreate(uart_ota_task, (char*)"uart_ota_task", 1024, &fw_version, 5, NULL);
-    xTaskCreate(http_ota_task, (char *)"http_ota_task", 1024, &fw_version, 5, NULL);
+    xTaskCreate(uart_ota_task, (char*)"uart_ota_task", 1024, &fw_version, 5, &vb6824_module_ota_task_handle);
+    xTaskCreate(http_ota_task, (char *)"http_ota_task", 1024, &fw_version, 5, &wifi_module_ota_task_handle);
     vTaskStartScheduler();
 
     while (1) {

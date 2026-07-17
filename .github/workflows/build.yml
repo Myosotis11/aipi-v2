@@ -24,9 +24,8 @@ jobs:
       run: |
         cd project/Xiaozhi-AI
         make
-
-    - name: Upload firmware
-      uses: actions/upload-artifact@v4
-      with:
-        name: aipi-firmware
-        path: project/Xiaozhi-AI/build_out/*.bin
+- name: Upload firmware
+  uses: actions/upload-artifact@v4
+  with:
+    name: aipi-firmware
+    path: project/Xiaozhi-AI/build/build_out/*.bin
